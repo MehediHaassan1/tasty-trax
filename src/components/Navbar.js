@@ -13,7 +13,7 @@ const Navbar = () => {
         { id: 5, title: 'Blog', link: '/blog' },
     ];
     return (
-        <div className='bg-primary py-4 sticky top-0 left-0 right-0'>
+        <div className='bg-primary py-4 sticky top-0 left-0 right-0 z-[1000001]'>
             <div className='max-w-7xl mx-auto'>
                 <div className='flex justify-between items-center'>
                     {/* logo starts */}
