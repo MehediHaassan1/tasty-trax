@@ -21,9 +21,11 @@ const Testimonials = () => {
                 </div>
             </div>
             <div className='md:flex justify-evenly items-center p-4 md:p-0'>
-                <div>
-                    <img src="https://i.ibb.co/h8rGzhS/review-man-1.png" alt="review-man-1" />
-                    <FaStar className='hidden' />
+                <div className='relative'>
+                    <img src="https://i.ibb.co/h8rGzhS/review-man-1.png" alt="review-man-1" className='bg-accent/10' />
+                    <div className='hidden w-16 h-16 bg-white rounded-full md:flex justify-center items-center absolute top-32 -left-7'>
+                        <FaStar className='w-10 h-10 text-accent' />
+                    </div>
                 </div>
                 <div className='md:flex flex-col'>
                     <h3 className='text-3xl text-primary my-6 font-semibold'>TastyTrax</h3>
