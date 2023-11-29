@@ -20,8 +20,8 @@ const App = () => {
                 <About />
                 <Products />
                 <Testimonials />
-                <MyFooter />
             </div>
+            <MyFooter />
         </div>
     )
 }
