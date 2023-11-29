@@ -24,7 +24,7 @@ const About = () => {
             </div>
 
             <div className='grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-10 lg:h-screen overflow-hidden'>
-                <div className='grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-10'>
+                <div className='grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-10 p-4'>
                     <div>
                         <h1 className='text-3xl font-semibold text-primary mb-4'>1.</h1>
                         <h1 className='text-3xl font-semibold text-primary mb-4'>Who we are</h1>
